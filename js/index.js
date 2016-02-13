@@ -75,7 +75,6 @@ app.controller("myController", ['$scope', function($scope) {
 
     return wayToLoseString;
   }
-
   $scope.givePrediction = function() {
     $scope.howTheyLose = createWayToLoseOnOffenseString(players, waysToLose);
   }
