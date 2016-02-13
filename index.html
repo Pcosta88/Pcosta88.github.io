@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Browns Loss Predictor</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body ng-app="app">
+  <div ng-controller="myController">
+    <img class="helmet" src="https://nbcprofootballtalk.files.wordpress.com/2015/02/brn-hel-34-rf-rgb.jpg?w=250"/>
+    <h1 class="mainHeader">How Will the Browns Lose this Week?</h1>
+    <h1 class="header1">{{howTheyLose}}</h1>
+
+    <button type="button" class="btn-success daBtn" ng-click= "givePrediction()">Tell Me How the Browns will Lose this Week</button>
+    
+  </div>
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
