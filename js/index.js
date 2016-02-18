@@ -75,7 +75,7 @@ app.controller("myController", ['$scope', function($scope) {
 }
       else if (player.st) {
       playerName = player.st;
-      wayToLose = waysToLose.waysToLoseByST[indexst];
+      wayToLose = waysToLose.waysToLoseByST[indexST];
 
     } else if (player.dl) {
       playerName = player.dl;
