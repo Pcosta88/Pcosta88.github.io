@@ -6,7 +6,7 @@ app.controller("myController", ['$scope', function($scope) {
     waysToLoseByRB: ["fumble", "throw an interception on a flea flicker", "get tackled in the endzone for a safety"],
     waysToLoseByWR: ["fumble", "drop a pass in the endzone", "get tackled in the endzone for a safety"],
     waysToLoseByDL: ["throw his helmet"],
-    waystoLosebyST: ["get penalty for roughing opposition team's  kicker", "get our field goal attempt blocked"]
+    waystoLosebyST: ["get penalty for roughing opposition team's  kicker", "get our field goal attempt blocked"],
   }
   players = [{
     qb: "Josh McCown"
@@ -15,7 +15,7 @@ app.controller("myController", ['$scope', function($scope) {
   },
    {
    qb: "Austin Davis"
-     {,
+    } {,
     rb: "Isaiah Crowell"
   }, {
     rb: "Terrance West"
