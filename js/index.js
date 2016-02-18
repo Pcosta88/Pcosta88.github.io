@@ -59,8 +59,9 @@ app.controller("myController", ['$scope', function($scope) {
       indexQB = Math.floor(Math.random() * (waysToLose.waysToLoseByQB.length) - 0),
       indexRB = Math.floor(Math.random() * (waysToLose.waysToLoseByRB.length) - 0),
       indexWR = Math.floor(Math.random() * (waysToLose.waysToLoseByWR.length) - 0),
-      indexDL = Math.floor(Math.random() * (waysToLose.waysToLoseByDL.length) - 0);
-    if (player.qb) {
+      indexDL = Math.floor(Math.random() * (waysToLose.waysToLoseByDL.length) - 0),;
+      indexST = Math.floor(Math.random() * (waysToLose.waysToLoseByST.length) - 0);
+ if (player.qb) {
       playerName = player.qb;
       wayToLose = waysToLose.waysToLoseByQB[indexQB];
       // Math.floor(Math.random() * (max - min + 1)) + min;
@@ -71,6 +72,11 @@ app.controller("myController", ['$scope', function($scope) {
     } else if (player.wr) {
       playerName = player.wr;
       wayToLose = waysToLose.waysToLoseByWR[indexWR];
+}
+      else if (player.st) {
+      playerName = player.st;
+      wayToLose = waysToLose.waysToLoseByST[indexst];
+
     } else if (player.dl) {
       playerName = player.dl;
       wayToLose = waysToLose.waysToLoseByDL[indexDL];
