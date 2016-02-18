@@ -15,7 +15,7 @@ app.controller("myController", ['$scope', function($scope) {
   },
    {
    qb: "Austin Davis"
-    } {,
+    }, {
     rb: "Isaiah Crowell"
   }, {
     rb: "Terrance West"
